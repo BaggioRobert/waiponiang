@@ -299,7 +299,7 @@
 <body>
 
     <div class="shop-name">🌶️ 歪婆娘冷吃</div>
-    <div class="shop-sub">自贡盐帮菜 · 新鲜现做 · 真空包装</div>
+    <div class="shop-sub">私房盐帮菜 · 新鲜现做 · 真空包装</div>
 
     <div id="productList"></div>
 
@@ -323,24 +323,24 @@
 
     <script>
         // ============================================================
-        // ★ 商品数据（按你指定的顺序排列） ★
+        // ★ 商品数据（按新顺序排列） ★
         // ============================================================
         const products = [
             { id: 1, name: '金牌冷吃兔', spec: '200克/袋', price: 27, img: 'images/金牌冷吃兔.jpg' },
-            { id: 2, name: '香辣小龙虾（拍三发四）', spec: '150克/袋', price: 28, img: 'images/香辣小龙虾.jpg' },
-            { id: 3, name: '金牌冷吃牛肉', spec: '170克/袋', price: 35, img: 'images/金牌冷吃牛肉.jpg' },
+            { id: 2, name: '金牌冷吃兔（微辣）', spec: '200克/袋', price: 27, img: 'images/金牌冷吃兔微辣.jpg' },
+            { id: 3, name: '花椒兔', spec: '150克/袋', price: 20, img: 'images/花椒兔.jpg' },
             { id: 4, name: '冷香兔（五香蒜蓉味）', spec: '200克/袋', price: 29, img: 'images/冷香兔五香蒜蓉味.jpg' },
-            { id: 5, name: '金牌冷吃兔（微辣）', spec: '200克/袋', price: 27, img: 'images/金牌冷吃兔微辣.jpg' },
+            { id: 5, name: '金牌冷吃牛肉', spec: '170克/袋', price: 35, img: 'images/金牌冷吃牛肉.jpg' },
             { id: 6, name: '麻辣牛肉丝', spec: '170克/袋', price: 35, img: 'images/麻辣牛肉丝.jpg' },
-            { id: 7, name: '香辣掌中宝', spec: '120克/袋', price: 26, img: 'images/香辣掌中宝.jpg' },
-            { id: 8, name: '五香牛肉', spec: '150克/袋', price: 36, img: 'images/五香牛肉.jpg' },
-            { id: 9, name: '吮指鸭舌', spec: '150克/袋', price: 36, img: 'images/吮指鸭舌.jpg' },
-            { id: 10, name: '香辣兔头', spec: '2只/袋', price: 31, img: 'images/香辣兔头.jpg' },
-            { id: 11, name: '勺魂兔腿', spec: '2只/袋', price: 28, img: 'images/勺魂兔腿.jpg' },
-            { id: 12, name: '野生小鱼', spec: '200克/袋', price: 28, img: 'images/野生小鱼.jpg' },
-            { id: 13, name: '冷吃鱼丁', spec: '200克/袋', price: 22, img: 'images/冷吃鱼丁.jpg' },
-            { id: 14, name: '香辣鸡尖', spec: '170克/袋', price: 19, img: 'images/香辣鸡尖.jpg' },
-            { id: 15, name: '花椒兔', spec: '150克/袋', price: 20, img: 'images/花椒兔.jpg' },
+            { id: 7, name: '五香牛肉', spec: '150克/袋', price: 36, img: 'images/五香牛肉.jpg' },
+            { id: 8, name: '香辣小龙虾（拍三发四）', spec: '150克/袋', price: 28, img: 'images/香辣小龙虾.jpg' },
+            { id: 9, name: '香辣掌中宝', spec: '120克/袋', price: 26, img: 'images/香辣掌中宝.jpg' },
+            { id: 10, name: '吮指鸭舌', spec: '150克/袋', price: 36, img: 'images/吮指鸭舌.jpg' },
+            { id: 11, name: '香辣兔头', spec: '2只/袋', price: 31, img: 'images/香辣兔头.jpg' },
+            { id: 12, name: '勺魂兔腿', spec: '2只/袋', price: 28, img: 'images/勺魂兔腿.jpg' },
+            { id: 13, name: '野生小鱼', spec: '200克/袋', price: 28, img: 'images/野生小鱼.jpg' },
+            { id: 14, name: '冷吃鱼丁', spec: '200克/袋', price: 22, img: 'images/冷吃鱼丁.jpg' },
+            { id: 15, name: '香辣鸡尖', spec: '170克/袋', price: 19, img: 'images/香辣鸡尖.jpg' },
             { id: 16, name: '冷吃猪尾', spec: '200克/袋', price: 27, img: 'images/冷吃猪尾.jpg' },
             { id: 17, name: '香辣鸭心', spec: '100克/袋', price: 13, img: 'images/香辣鸭心.jpg' },
             { id: 18, name: '香辣鸭头', spec: '2个/袋', price: 18, img: 'images/香辣鸭头.jpg' },
@@ -351,7 +351,7 @@
         ];
 
         // ============================================================
-        // 状态与渲染（与之前完全一致，无需改动）
+        // 以下代码无需改动
         // ============================================================
         const cart = {};
 
